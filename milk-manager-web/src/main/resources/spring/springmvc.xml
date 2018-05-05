@@ -24,5 +24,6 @@
     <dubbo:application name="milk-manager-web"/>
     <dubbo:registry protocol="zookeeper" address="10.20.31.241:2185"/>
     <dubbo:reference interface="com.anda.service.ItemService" id="itemService" />
+    <dubbo:reference interface="com.anda.service.ItemCatService" id="itemCatService" />
 
 </beans>
